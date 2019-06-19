@@ -26,7 +26,7 @@ $use_auth = true;
 // Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
 // Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
 $auth_users = array(
-    'admin' => password_hash($config['password'], PASSWORD_DEFAULT), //请将加密的密码覆盖，默认密码easyimage
+    'admin' => password_hash($config['password'], PASSWORD_DEFAULT), //请将加密的密码覆盖，admin
 );
 
 // Readonly users (username array)
@@ -57,7 +57,7 @@ $ip_blacklist = array(
 
 // user specific directories
 // array('Username' => 'Directory path', 'Username2' => 'Directory path', ...)
-$directories_users = array('admin'=>'.');
+$directories_users = array('admin'=>'../');
 
 // Enable highlight.js (https://highlightjs.org/) on view's page
 $use_highlightjs = true;
@@ -99,7 +99,7 @@ $favicon_path = '?img=favicon';
 
 // Array of files and folders excluded from listing
 // e.r array('myfile.html', 'personal-folder')
-$GLOBALS['exclude_items'] = array('tinyfilemanager.php','static/translation.json');
+$GLOBALS['exclude_items'] = array('tinyfilemanager.php','common','config.php','index.php','link.php','upload.php');
 
 // Online office Docs Viewer
 // Availabe rules are 'google', 'microsoft' or false
