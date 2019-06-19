@@ -34,13 +34,11 @@ $config = array(
     // 顶部广告 第一行写点击链接，第二行写图片链接,如果不是最后一行，请务必末尾加','
     // 广告如果有重复链接的，可以在末尾加一些修饰符 ?=*
     'adTop'=>[
-        'https://img.545141.com'=>'http://21511.ua96.com/images/760x100.gif',
-        'https://img.545141.com?1'=>'http://21511.ua96.com/images/760x100.gif'
+        'https://img.545141.com?1'=>'common/static/ad.jpg'
     ],
     // 底部广告 第一行写点击链接，第二行写图片链接,如果不是最后一行，请务必末尾加','
     'adBot'=>[
-        'https://img.545141.com'=>'http://21511.ua96.com/images/760x100.gif',
-        'https://img.545141.com?1'=>'http://21511.ua96.com/images/760x100.gif'
+        'https://img.545141.com'=>'common/static/ad.jpg',
     ],
     'version'=>'1.0'
 );

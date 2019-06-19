@@ -33,15 +33,18 @@ if (strstr($_SERVER["QUERY_STRING"],'down=')){
 <!doctype html>
 <html lang="zh-cn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo $title?></title>
     <link rel="stylesheet" href="common/static/zui/css/zui.min.css">
 </head>
 <body>
-<div class="container-fixed-md" style="text-align: center">
+<div class="container" style="text-align: center">
+    <div style="position:fixed; left:35%; margin-left:-30%; top:2%; margin-top:80px;" class="hidden-xs text-muted small">
+        <a href="index.php" target="_blank"><div id="qrcode"></div>手机扫码下载</a>
+    </div>
+
     <?php
     // 顶部广告
     foreach ($config['adTop'] as $link=>$img)
@@ -50,10 +53,11 @@ if (strstr($_SERVER["QUERY_STRING"],'down=')){
     }?>
     <div class="panel">
         <div class="panel-heading">
-            <h5>下载ID：<?php echo $id.' 下载次数:'.mt_rand(0,9999);?></h5>
+            <h5 class="text-nowrap">下载ID：<?php echo $id.' 下载次数:'.mt_rand(0,9999);?></h5>
+            <h5 class="visible-xs"><?php echo '下载次数:'.mt_rand(0,9999);?></h5>
         </div>
         <div class="panel-body">
-            <a href="<?php echo $downLink;?>" download="<?php echo $fileName;?>"><button class="btn " type="button"><i class="icon icon-download-alt"> </i>点击下载</button></a>
+            <a href="<?php echo $downLink;?>" download="<?php echo $fileName;?>"><button class="btn" type="button"><i class="icon icon-download-alt"> </i>点击下载</button></a>
         </div>
     </div>
     <?php
@@ -63,10 +67,10 @@ if (strstr($_SERVER["QUERY_STRING"],'down=')){
         echo '<a href="'.$link.'" target="_blank"><img src="'.$img.'" width="100%" alt="adBot"></a>';
     }?>
 </div>
-
 </body>
 <script src="common/static/zui/jquery.min.js"></script>
 <script src="common/static/zui/js/zui.min.js"></script>
+<script src="common/static/qrcode.min.js"></script>
 <script>
     function downloadFile(fileName, content){
         var aLink = document.createElement('a');
@@ -77,5 +81,22 @@ if (strstr($_SERVER["QUERY_STRING"],'down=')){
         aLink.href = URL.createObjectURL(blob);
         aLink.dispatchEvent(evt);
     }
+    // 二维码设置参数方式
+    var qrcode = new QRCode(document.getElementById('qrcode'), {
+        text: window.location.href,
+        width: 168,
+        height: 168,
+        colorDark : '#000000',
+        colorLight : '#ffffff',
+        correctLevel : QRCode.CorrectLevel.H
+    });
+    // 悬浮
 </script>
+
+<footer class="container text-muted small"  style="text-align: center">
+    <hr>
+    <p>BT种子上传程序 开源简单安全无数据库 | <a data-toggle="modal" data-target="#myModal">登录</a> | <a href="common/tinyfilemanager.php" target="_blank">文件管理</a><br /></p>
+    <p>Copyright © 2019 Btupdown Powered By <a href="https://www.545141.com/902.html" target="_blank">icret</a> version: <?php echo $config['version']?>
+        <a href="https://github.com/icret/Btupdown" target="_blank">Github</a></p>
+</footer>
 </html>

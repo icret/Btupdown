@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html lang="zh_cn">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo $config['title'];?></title>
     <link rel="stylesheet" href="common/static/zui/css/zui.min.css">
     <link href="common/static/zui/lib/uploader/zui.uploader.min.css" rel="stylesheet">
@@ -10,12 +12,15 @@
     <script src="common/static/zui/js/zui.min.js"></script>
     <script src="common/static/zui/lib/uploader/zui.uploader.min.js"></script>
     <script src="common/static/clipboard.min.js"></script>
+    <script src="common/static/qrcode.min.js"></script>
     <link rel="shortcut icon" href="common/static/favicon.ico">
 </head>
 <body>
-<div class="container-fixed-md">
-    <div class="col-md-12" style="margin-top: 7%;margin-bottom: 2%">
-        <center><a href="index.php"><img src="common/static/38280.jpg" alt="btupdown" width="30%"></a></center>
+<div class="container">
+    <div class="col-md-12 text-muted small" style="margin-top: 7%;margin-bottom: 2%">
+        <center>
+            <a href="index.php" class="hidden-xs"><div id="qrcode"></div>使用手机扫码上传</a>
+        </center>
     </div>
     <div class="col-md-12">
         <div id="upID" class="uploader" style="text-align: right;margin:15px">
@@ -54,24 +59,24 @@
                 <h4 class="modal-title">登录之后才可以上传</h4>
             </div>
             <div class="modal-body">
-                <div class="container-fixed">
-                <form class="form-inline" action="index.php" method="post">
-                    <div class="form-group">
-                        <i class="icon icon-lock"></i>
-                        <input type="password" name="password" class="form-control" id="exampleInputInviteCode3" placeholder="请输入登录密码">
-                    </div>
-                    <button type="submit" class="btn btn-primary">登录</button>
-                </form>
+                <div class="container">
+                    <form class="form-inline" action="index.php" method="post">
+                        <div class="form-group">
+                            <i class="icon icon-lock"></i>
+                            <input type="password" name="password" class="form-control" id="exampleInputInviteCode3" placeholder="请输入登录密码">
+                        </div>
+                        <button type="submit" class="btn btn-primary">登录</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 <script>
     // 登录js
     $('#myModal').modal({
         show:<?php echo checkPwd();?>
-        })
+    })
 </script>
 <script>
     $('#upID').uploader({
@@ -100,7 +105,6 @@
                 var obj = JSON.parse(responseObject.response); //由JSON字符串转换为JSON对象
                 var enLink = document.getElementById("enLink");
                 enLink.innerHTML += obj.enLink + "\n";
-
                 var link = document.getElementById("link");
                 link.innerHTML +=  obj.link + "\n";
             } else {
@@ -108,7 +112,6 @@
             }
         }
     });
-
     // 按钮状态
     $('#btnenLink').on('click', function() {
         var $btn = $(this);
@@ -117,7 +120,6 @@
             $btn.button('reset');
         }, 2000);
     });
-
     $('#btnLink').on('click', function() {
         var $btn = $(this);
         $btn.button('loading');
@@ -125,7 +127,6 @@
             $btn.button('reset');
         }, 2000);
     });
-
     // copy
     var clipboard = new ClipboardJS('#btnenLink');
     clipboard.on('success', function(e) {
@@ -141,12 +142,22 @@
         console.error('Action:', e.action);
         console.error('Trigger:', e.trigger);
     });
+    // 二维码设置参数方式
+    var qrcode = new QRCode(document.getElementById('qrcode'), {
+        text: window.location.href,
+        width: 168,
+        height: 168,
+        colorDark : '#000000',
+        colorLight : '#ffffff',
+        correctLevel : QRCode.CorrectLevel.H
+    });
 </script>
-<footer class="container-fixed text-muted small"  style="text-align: center">
+<footer class="container text-muted small"  style="text-align: center">
     <hr>
-    <p>BT种子上传程序 开源简单安全无数据库 | <a data-toggle="modal" data-target="#myModal">登录</a> | <a href="common/tinyfilemanager.php" target="_blank">文件管理</a><br /></p>
-    <p>Copyright © 2019 Btupdown Powered By <a href="https://www.545141.com/902.html" target="_blank">icret</a> version: <?php echo $config['version']?>
-        <a href="https://github.com/icret/Btupdown" target="_blank">Github</a></p>
+    <p>BT种子上传程序 开源简单安全无数据库 | <a data-toggle="modal" data-target="#myModal">登录</a> | <a href="common/tinyfilemanager.php" target="_blank">文件管理</a>
+    <br />
+    Copyright © 2019 <a href="http://bt.100024.xyz" target="_blank">Btupdwon </a>Powered By <a href="https://www.545141.com/902.html" target="_blank">icret</a> version: <?php echo $config['version']?>
+    <a href="https://github.com/icret/Btupdown" target="_blank">Github</a></p>
 </footer>
 </body>
 </html>
