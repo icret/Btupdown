@@ -1,4 +1,4 @@
-<?php require 'common/function.php';?>
+<?php require 'common/function.php';checkPwd();?>
 <!DOCTYPE html>
 <html lang="zh_cn">
 <head>
@@ -17,7 +17,7 @@
 </head>
 <body>
 <div class="container">
-    <div class="col-md-12 text-muted small" style="margin-top: 7%;margin-bottom: 2%">
+    <div class="col-md-12 text-muted small" style="margin-top: 10px;margin-bottom: 10px">
         <center>
             <a href="index.php" class="hidden-xs"><div id="qrcode"></div>使用手机扫码上传</a>
         </center>
@@ -71,12 +71,6 @@
         </div>
     </div>
 </div>
-<script>
-    // 登录js
-    $('#myModal').modal({
-        show:<?php echo checkPwd();?>
-    })
-</script>
 <script>
     $('#upID').uploader({
         // 当选择文件后立即自动进行上传操作
@@ -150,6 +144,10 @@
         colorLight : '#ffffff',
         correctLevel : QRCode.CorrectLevel.H
     });
+    // 登录js
+    $('#myModal').modal({
+        show:<?php echo checkPwd();?>
+    })
 </script>
 <footer class="container text-muted small"  style="text-align: center">
     <hr>
