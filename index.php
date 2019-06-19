@@ -62,8 +62,7 @@
                 <div class="container">
                     <form class="form-inline" action="index.php" method="post">
                         <div class="form-group">
-                            <i class="icon icon-lock"></i>
-                            <input type="password" name="password" class="form-control" id="exampleInputInviteCode3" placeholder="请输入登录密码">
+                            <input type="password" name="password" class="form-control" placeholder="请输入登录密码">
                         </div>
                         <button type="submit" class="btn btn-primary">登录</button>
                     </form>
@@ -154,10 +153,11 @@
 </script>
 <footer class="container text-muted small"  style="text-align: center">
     <hr>
-    <p>BT种子上传程序 开源简单安全无数据库 | <a data-toggle="modal" data-target="#myModal">登录</a> | <a href="common/tinyfilemanager.php" target="_blank">文件管理</a>
-    <br />
-    Copyright © 2019 <a href="http://bt.100024.xyz" target="_blank">Btupdwon </a>Powered By <a href="https://www.545141.com/902.html" target="_blank">icret</a> version: <?php echo $config['version']?>
-    <a href="https://github.com/icret/Btupdown" target="_blank">Github</a></p>
+    <p>
+        <?php if(!empty($config['tips'])){echo $config['tips'].'</li></ul>';} ?><br />
+        BT种子上传程序 开源简单安全无数据库 | <a data-toggle="modal" data-target="#myModal">登录</a> | <a href="common/tinyfilemanager.php" target="_blank">文件管理</a><br />
+        Copyright © 2019 <a href="http://bt.100024.xyz" target="_blank">Btupdown </a>Powered By <a href="https://www.545141.com/902.html" target="_blank">icret</a> version: <?php echo $config['version']?> <a href="https://github.com/icret/Btupdown" target="_blank">Github</a>
+    </p>
 </footer>
 </body>
 </html>

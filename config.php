@@ -24,13 +24,13 @@ $config = array(
     // * 网址加密秘钥 很重要，一经修改请勿再修改，否则会导致所有链接失效！
     'token'=>'545141.com',
     // 是否允许直接下载 以link.php?down=** 进行直接下载 关闭后直链打开页面后直接下载 不再单独显示下载页面
-    'directLink'=> true,
+    'directLink'=> false,
     // 是否开启登录才能上传
-    'login'=>true,
+    'login'=>false,
     // 登录上传的密码，与管理密码不相同
     'password'=>'admin',
     // * 是否开启管理 true开启 false关闭 开启一定要修改密码 修改方式请参照
-    'manager'=>true,
+    'manager'=>false,
     // 顶部广告 第一行写点击链接，第二行写图片链接,如果不是最后一行，请务必末尾加','
     // 广告如果有重复链接的，可以在末尾加一些修饰符 ?=*
     'adTop'=>[
