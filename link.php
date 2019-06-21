@@ -25,7 +25,7 @@ if (strstr($_SERVER["QUERY_STRING"],'down=')){
         header('location:'. $config['domain'].encrypt($id, 'D', $config['token']));
     }else
     {
-        header('location:'. $config['domain'].'link.php?hash='.htmlspecialchars($_REQUEST['down']));
+        header('location:'. $config['domain'].'/link.php?hash='.htmlspecialchars($_REQUEST['down']));
     }
 }
 

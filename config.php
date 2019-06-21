@@ -6,15 +6,15 @@
 
 $config = array(
     // 网站标题
-    'title' => 'BT种子上传',
+    'title' => 'BT种子上传 - 种子免费托管',
     // 网站关键字
-    'keywords'=>'bt种子,bt上传,开源',
+    'keywords'=>'bt种子,bt上传,开源,种子托管,免费',
     // 网站描述
-    'description'=>'bt上传程序是一款用于上传bt种子的开源程序。',
+    'description'=>'bt种子上传是一款用于上传bt种子在线管理和托管的程序,程序免费开源可以单独设置下载地址广告。',
     // 网站公告
     'tips'=>'本网站仅作为演示，不对内容负任何责任!',
     // 网站域名 末尾不加/
-    'domain'=>'http://127.0.0.1/btupdown',
+    'domain'=>'https://bt.100024.xyz',
     // 存储路径 设置后请勿随意修改，否则会导致加密链接下载失效！ 前后需要加/
     'path'=>'/u/',
     // 允许上传的类型
@@ -40,7 +40,7 @@ $config = array(
     'adBot'=>[
         'https://img.545141.com'=>'common/static/ad.jpg',
     ],
-    'version'=>'1.0'
+    'version'=>'1.2'
 );
 
 // 设置html为utf8
