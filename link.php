@@ -97,7 +97,7 @@ if (strstr($_SERVER["QUERY_STRING"],'down=')){
     <hr>
     <p>
         <?php if(!empty($config['tips'])){echo $config['tips'].'</li></ul>';} ?><br />
-        Copyright © 2019 <a href="http://bt.100024.xyz" target="_blank">Btupdown </a>Powered By <a href="https://www.545141.com/902.html" target="_blank">icret</a> version: <?php echo $config['version']?> <a href="https://github.com/icret/Btupdown" target="_blank">Github</a>
+        Copyright © 2019 <a href="http://bt.100024.xyz" target="_blank">Btupdown </a>Powered By <a href="https://www.545141.com/936.html" target="_blank">icret</a> version: <?php echo $config['version']?> <a href="https://github.com/icret/Btupdown" target="_blank">Github</a>
     </p>
 </footer>
 </html>

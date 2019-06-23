@@ -2,11 +2,12 @@
 /**
  * Author: icret
  * Date: 2019/6/16 23:35
+ * link: https://www.545141.com/936.html
  */
 
 $config = array(
     // 网站标题
-    'title' => 'BT种子上传 - 种子免费托管',
+    'title' => 'BT种子上传 - bt种子免费托管',
     // 网站关键字
     'keywords'=>'bt种子,bt上传,开源,种子托管,免费',
     // 网站描述
