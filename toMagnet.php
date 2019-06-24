@@ -1,6 +1,42 @@
 <?php
 header("content-type:text/html;charset=utf-8");
+
+if (isset($_FILES['file']))
+{
+    echo '<title>种子转换成磁力链接</title>';
+}elseif (isset($_POST['file1']))
+{
+    echo '<title>磁力转换成种子</title>';
+}else{
+    echo '<title>种子转换成磁力链接</title>';
+}
 require 'common/header.php';
+
+/*
+ * 磁力转换成种子
+ */
+if (isset($_POST['file1']))
+{
+// 获取磁力链接
+    $link = $_POST['file1'];
+// urls are encoded, let's reverse that
+    $link = urldecode($link);
+// first regex searches for 'btih:' and matches subsequent
+// word characters ([a-zA-Z0-9_])
+// match(es) are captured as an array to $matchBtih
+    preg_match('/(?<=btih:)\w+/', $link, $matchBtih);
+    echo '<a class="btn btn-primary" href="http://btcache.me/torrent/'.$matchBtih[0].'" target="_blank"><i class="icon icon-download-alt"></i> 下载种子</a>';
+
+# http://btcache.me/torrent/17CC8E34EEEFAB3261579B62C86411059A2CEA7F
+
+    // 载入底部
+    echo '<div class="col-md-12">';
+    require 'common/footer.php';
+    echo '</div>';
+    exit;
+}
+
+
 /*
  * 文件上传
  */
@@ -17,15 +53,14 @@ if (empty($_FILES))
       </div>
       <button type="submit" class="btn btn-primary">上传</button>
     </form>
-    <!--
 <h1>#2 磁力链接转种子</h1>
 <p>将磁力链接复制到文本框里，可以不带 magnet://</p>
 <form class="form-inline" action="toMagnet.php" method="post" enctype="multipart/form-data">
       <div class="form-group">
-        <input type="text" name="file" class="form-control" id="exampleInputInviteCode3" placeholder="选择要转换成种子的磁力">
+        <input type="text" name="file1" class="form-control" id="exampleInputInviteCode3" placeholder="选择要转换成种子的磁力">
       </div>
       <button type="submit" class="btn btn-primary">上传</button>
- </form>  -->
+ </form>
 </div>
     ';
     // 引用公共底部
@@ -41,8 +76,6 @@ if (empty($_FILES))
 
 require 'common/BEncode.php';
 require 'common/BDecode.php';
-
-echo '<title>种子转换成磁力链接</title>';
 
 $path = @htmlspecialchars($_FILES['file']['tmp_name']);//此处填写种子的地址
 $torrent = @file_get_contents($path);

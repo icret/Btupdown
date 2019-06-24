@@ -40,6 +40,7 @@ require 'common/function.php';checkPwd();?>
                     <!-- 一般导航项目 -->
                     <ul class="nav navbar-nav">
                         <li><a href="toMagnet.php">种子转磁力</a></li>
+                        <li><a href="toMagnet.php">磁力转种子</a></li>
                         <li><a href="common/tinyfilemanager.php" target="_blank">管理</a></li>
                     </ul>
                 </div>
