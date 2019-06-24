@@ -1,6 +1,8 @@
 <?php
 require 'config.php';
 require 'common/encrypt.php';
+require 'common/BEncode.php';
+require 'common/BDecode.php';
 
 // 以网页展现
 if (isset($_REQUEST['hash']))
@@ -28,6 +30,17 @@ if (strstr($_SERVER["QUERY_STRING"],'down=')){
         header('location:'. $config['domain'].'/link.php?hash='.htmlspecialchars($_REQUEST['down']));
     }
 }
+
+/*
+ * 获取文件磁力
+ */
+$path = __DIR__ .encrypt($id, 'D', $config['token']);//此处填写种子的地址
+$torrent = @file_get_contents($path);
+$desc = BDecode($torrent);
+$info = $desc['info'];
+// 磁力链接
+$hash = strtoupper(sha1( BEncode($info) ));
+$magnet = sprintf('magnet:?xt=urn:btih:%s&dn=%s', $hash, $info['name']);
 
 ?>
 <!doctype html>
@@ -57,6 +70,7 @@ if (strstr($_SERVER["QUERY_STRING"],'down=')){
             <h5 class="visible-xs"><?php echo '下载次数:'.mt_rand(0,9999);?></h5>
         </div>
         <div class="panel-body">
+            <a href="<?php echo $magnet;?>"><button class="btn" type="button"><i class="icon icon-download-alt"> </i>磁力链接</button></a>
             <a href="<?php echo $downLink;?>" download="<?php echo $fileName;?>"><button class="btn" type="button"><i class="icon icon-download-alt"> </i>点击下载</button></a>
         </div>
     </div>

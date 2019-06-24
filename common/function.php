@@ -26,3 +26,24 @@ function checkPwd() {
         return 'true';
     }
 }
+
+// 四舍五入求大小
+function setSize($file)
+{
+    switch (is_numeric($file))
+    {
+        case $file>1073741824:
+            $file = $file / 1024 / 1024 / 1024;
+            return round($file) . ' GB';
+            break;
+        case $file>1048576:
+            $file = $file / 1024 / 1024;
+            return round($file) . ' MB';
+            break;
+        case $file>1024:
+            return round($file) . ' KB';
+            break;
+        default:
+            return round($file) . ' 字节';
+    }
+}
