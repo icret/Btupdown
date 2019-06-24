@@ -4,7 +4,7 @@ header("content-type:text/html;charset=utf-8");
 if (isset($_FILES['file']))
 {
     echo '<title>种子转换成磁力链接</title>';
-}elseif (isset($_POST['file1']))
+}elseif (isset($_POST['file1']) || isset($_GET['go']))
 {
     echo '<title>磁力转换成种子</title>';
 }else{
