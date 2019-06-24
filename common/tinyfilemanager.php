@@ -99,7 +99,7 @@ $favicon_path = '?img=favicon';
 
 // Array of files and folders excluded from listing
 // e.r array('myfile.html', 'personal-folder')
-$GLOBALS['exclude_items'] = array('tinyfilemanager.php','common','config.php','index.php','link.php','upload.php');
+$GLOBALS['exclude_items'] = array('tinyfilemanager.php','common','config.php','index.php','link.php','upload.php','toMagnet.php');
 
 // Online office Docs Viewer
 // Availabe rules are 'google', 'microsoft' or false

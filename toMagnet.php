@@ -24,6 +24,7 @@ if (isset($_POST['file1']))
 // first regex searches for 'btih:' and matches subsequent
 // word characters ([a-zA-Z0-9_])
 // match(es) are captured as an array to $matchBtih
+// // 匹配  'btih:' 之后的值， 获取数组,赋值给$matchBtih
     preg_match('/(?<=btih:)\w+/', $link, $matchBtih);
     echo '<a class="btn btn-primary" href="http://btcache.me/torrent/'.$matchBtih[0].'" target="_blank"><i class="icon icon-download-alt"></i> 下载种子</a>';
 
@@ -35,7 +36,6 @@ if (isset($_POST['file1']))
     echo '</div>';
     exit;
 }
-
 
 /*
  * 文件上传

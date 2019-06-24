@@ -2,133 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b2d0e0-aa6e-4e04-8c96-89aedaed51db" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/ajaxFake/zui.ajaxFake.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/ajaxFake/zui.ajaxFake.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/array/zui.array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/array/zui.array.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/board/zui.board.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/board/zui.board.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/board/zui.board.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/board/zui.board.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/bootbox/bootbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/bootbox/bootbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/bootbox/bootbox.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/bootbox/bootbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/calendar/zui.calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/calendar/zui.calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/calendar/zui.calendar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/calendar/zui.calendar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/chart/zui.chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/chart/zui.chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/chosen/chosen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/chosen/chosen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/chosen/chosen.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/chosen/chosen.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/chosenicons/zui.chosenicons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/chosenicons/zui.chosenicons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/chosenicons/zui.chosenicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/chosenicons/zui.chosenicons.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/clipboard/clipboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/clipboard/clipboard.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/colorpicker/zui.colorpicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/colorpicker/zui.colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/colorpicker/zui.colorpicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/colorpicker/zui.colorpicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/colorset.js/zui.colorset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/colorset.js/zui.colorset.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/dashboard/zui.dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/dashboard/zui.dashboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/dashboard/zui.dashboard.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/dashboard/zui.dashboard.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/datagrid/zui.datagrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/datagrid/zui.datagrid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/datagrid/zui.datagrid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/datagrid/zui.datagrid.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/datatable/zui.datatable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/datatable/zui.datatable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/datatable/zui.datatable.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/datatable/zui.datatable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/datetimepicker/datetimepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/datetimepicker/datetimepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/datetimepicker/datetimepicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/datetimepicker/datetimepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/hotkey/hotkey.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/hotkey/hotkey.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/ieonly/excanvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/ieonly/html5shiv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/ieonly/respond.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/imgcutter/zui.imgcutter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/imgcutter/zui.imgcutter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/imgcutter/zui.imgcutter.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/imgcutter/zui.imgcutter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/imgready/imgready.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/imgready/imgready.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/kindeditor/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/kindeditor/kindeditor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/kindeditor/kindeditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/kindeditor/kindeditor.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/kindeditor/kindeditor.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/kindeditor/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/kindeditor/lang/zh_CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/kindeditor/lang/zh_TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/kindeditor/themes/default/default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/markdoc/zui.markdoc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/markdoc/zui.markdoc.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/migrate1.2/zui.migrate1.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/migrate1.2/zui.migrate1.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-apollo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-basic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-clj.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-dart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-erlang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-go.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-hs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-lisp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-llvm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-lua.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-matlab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-ml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-mumps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-n.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-pascal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-proto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-r.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-rd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-scala.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-sql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-tcl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-tex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-vb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-vhdl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-wiki.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-xq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/lang-yaml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/prettify/run_prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/selectable/zui.selectable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/selectable/zui.selectable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/sortable/zui.sortable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/sortable/zui.sortable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/tabs/zui.tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/tabs/zui.tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/tabs/zui.tabs.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/tabs/zui.tabs.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/treemap/zui.treemap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/treemap/zui.treemap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/treemap/zui.treemap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/treemap/zui.treemap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/ueditor/ueditor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/ueditor/ueditor.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/uploader/zui.uploader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/static/zui/lib/uploader/zui.uploader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/tinyfilemanager.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/tinyfilemanager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toMagnet.php" beforeDir="false" afterPath="$PROJECT_DIR$/toMagnet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u/2019/06/232127018714.torrent" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/u/2019/06/241549079981.torrent" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,17 +22,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/toMagnet.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="79" column="42" lean-forward="true" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+            <state relative-caret-position="338">
+              <caret line="28" column="84" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="84" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/upload.php">
+        <entry file="file://$PROJECT_DIR$/common/tinyfilemanager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="138" column="33" lean-forward="true" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
+            <state relative-caret-position="280">
+              <caret line="101" column="127" selection-start-line="101" selection-start-column="127" selection-end-line="101" selection-end-column="127" />
+              <folding>
+                <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
+                <element signature="e#1#7#0" expanded="true" />
+                <element signature="e#1#7#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,9 +47,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
               <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <element signature="n#style#0;n#footer#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -194,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
+            <state relative-caret-position="1092">
               <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
             </state>
           </provider>
@@ -237,15 +115,16 @@
         <option value="$PROJECT_DIR$/link.php" />
         <option value="$PROJECT_DIR$/common/header.php" />
         <option value="$PROJECT_DIR$/common/test.php" />
-        <option value="$PROJECT_DIR$/toMagnet.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/toMagnet.php" />
+        <option value="$PROJECT_DIR$/common/tinyfilemanager.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="109" />
-    <option name="y" value="65" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="50" />
+    <option name="y" value="41" />
     <option name="width" value="1932" />
     <option name="height" value="1066" />
   </component>
@@ -257,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,7 +153,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,23 +206,25 @@
       <workItem from="1561288900995" duration="16000" />
       <workItem from="1561295161564" duration="19616000" />
       <workItem from="1561354076333" duration="128000" />
-      <workItem from="1561362260969" duration="6642000" />
+      <workItem from="1561362260969" duration="6810000" />
+      <workItem from="1561373520769" duration="731000" />
+      <workItem from="1561384436628" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27009000" />
+    <option name="totallyTimeSpent" value="27942000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="50" y="41" width="1932" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26549146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,20 +246,8 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/totorrent.php" />
-    <entry file="file://$PROJECT_DIR$/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html" />
+    <entry file="file://$PROJECT_DIR$/demo.php" />
     <entry file="file://$PROJECT_DIR$/common/toMagnet.php" />
     <entry file="file://$PROJECT_DIR$/common/BEncode.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -404,54 +273,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TorrentToMagnet-master/demo.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/BDecode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="n#style#0;n#footer#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" selection-start-line="1" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toMagnet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="79" column="42" lean-forward="true" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TorrentToMagnet-master/demo.php" />
+    <entry file="file://$PROJECT_DIR$/common/test.php" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -464,8 +287,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="138" column="33" lean-forward="true" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
+        <state relative-caret-position="834">
+          <caret line="138" column="33" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toMagnet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="28" column="84" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/link.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/BDecode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/tinyfilemanager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="101" column="127" selection-start-line="101" selection-start-column="127" selection-end-line="101" selection-end-column="127" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
+            <element signature="e#1#7#0" expanded="true" />
+            <element signature="e#1#7#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
