@@ -1,6 +1,18 @@
 <?php
 require 'config.php';
 
+// 获取允许上传的后缀以','隔开，并删除最后一个','
+function getMime()
+{
+    global $config;
+    $mime='';
+    for ($i=0;$i<count($config['mime']);$i++)
+    {
+        $mime .= $config['mime'][$i].',';
+    }
+    return rtrim($mime,',');
+}
+
 // 校验登录
 function checkPwd() {
     global $config;

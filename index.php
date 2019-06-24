@@ -52,7 +52,7 @@ echo '<title>'.$config['title'].'</title>';
 </div>
 <script>
     $('#upID').uploader({
-        // 当选择文件后立即自动进行上传操作
+        // 自动上传
         autoUpload: true,
         // 文件上传提交地址
         url: 'upload.php',
@@ -62,7 +62,7 @@ echo '<title>'.$config['title'].'</title>';
         filters: {
             mime_types: [{
                 title: '文件',
-                extensions:'<?php foreach ($config['mime'] as $value){echo $value.',';}?>',
+                extensions:'<?php echo getMime();?>',
             }],
             prevent_duplicates: true
         },
