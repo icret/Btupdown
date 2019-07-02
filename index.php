@@ -114,18 +114,5 @@ echo '<title>'.$config['title'].'</title>';
         console.error('Action:', e.action);
         console.error('Trigger:', e.trigger);
     });
-    // 二维码设置参数方式
-    var qrcode = new QRCode(document.getElementById('qrcode'), {
-        text: window.location.href,
-        width: 168,
-        height: 168,
-        colorDark : '#000000',
-        colorLight : '#ffffff',
-        correctLevel : QRCode.CorrectLevel.H
-    });
-    // 登录js
-    $('#myModal').modal({
-        show:<?php echo checkPwd();?>
-    })
 </script>
 <?php require 'common/footer.php';

@@ -10,14 +10,13 @@ require 'common/function.php';checkPwd();?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="common/static/favicon.ico">
     <link rel="stylesheet" href="common/static/zui/css/zui.min.css">
     <link href="common/static/zui/lib/uploader/zui.uploader.min.css" rel="stylesheet">
     <script src="common/static/zui/jquery.min.js"></script>
     <script src="common/static/zui/js/zui.min.js"></script>
     <script src="common/static/zui/lib/uploader/zui.uploader.min.js"></script>
     <script src="common/static/clipboard.min.js"></script>
-    <script src="common/static/qrcode.min.js"></script>
-    <link rel="shortcut icon" href="common/static/favicon.ico">
 </head>
 <body>
 <div class="container">
