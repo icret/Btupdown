@@ -42,6 +42,13 @@ $info = $desc['info'];
 $hash = strtoupper(sha1( BEncode($info) ));
 $magnet = sprintf('magnet:?xt=urn:btih:%s&dn=%s', $hash, $info['name']);
 
+// 简单的以文件后缀为判断是否为种子文件 如果不是则不显示磁力链接按钮
+
+if (pathinfo($path,PATHINFO_EXTENSION) != 'torrent')
+{
+    $show = 'style="display:none"';
+}
+
 ?>
 <!doctype html>
 <html lang="zh-cn">
@@ -70,7 +77,7 @@ $magnet = sprintf('magnet:?xt=urn:btih:%s&dn=%s', $hash, $info['name']);
             <h5 class="visible-xs"><?php echo '下载次数:'.mt_rand(0,9999);?></h5>
         </div>
         <div class="panel-body">
-            <a href="<?php echo $magnet;?>"><button class="btn" type="button"><i class="icon icon-download-alt"> </i>磁力链接</button></a>
+            <a href="<?php echo $magnet;?>"><button class="btn" type="button" <?php echo $show;?>><i class="icon icon-download-alt"> </i>磁力链接</button></a>
             <a href="<?php echo $downLink;?>" download="<?php echo $fileName;?>"><button class="btn" type="button"><i class="icon icon-download-alt"> </i>点击下载</button></a>
         </div>
     </div>

@@ -20,7 +20,7 @@ $config = array(
     'path'=>'/u/',
     // 允许上传的类型
     'mime'=>array('torrent','txt','zip','7z','rar'),
-    // 允许上传的大小 默认300kb 自定义大小请使用字节转换kb 转换
+    // 允许上传的大小 默认300kb 自定义大小请使用字节转换kb转换 http://www.bejson.com/convert/filesize/
     'size'=>307200,
     // * 网址加密秘钥 很重要，一经修改请勿再修改，否则会导致所有链接失效！
     'token'=>'545141.com',
@@ -41,7 +41,7 @@ $config = array(
     'adBot'=>[
         'https://img.545141.com'=>'common/static/ad.jpg',
     ],
-    'version'=>'1.2'
+    'version'=>'1.2.1'
 );
 
 // 设置html为utf8
